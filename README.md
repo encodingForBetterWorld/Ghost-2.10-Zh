@@ -7,5 +7,5 @@
 <h3 align="center">在Ghost-2.10的基础上进行了汉化</h3>
 <p align="center">如何使用？<br>
     将原版的Ghost-2.10下的文件替换掉即可</p>
-<p align="center"> [我的Ghost博客](https://pypi.org/project/tornado/)<br>
+<p align="center">of [TorMySql](https://pypi.org/project/TorMySQL/) <br>
 <hr />
