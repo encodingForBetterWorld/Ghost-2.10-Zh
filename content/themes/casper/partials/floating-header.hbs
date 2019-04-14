@@ -1,0 +1,32 @@
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="{{@blog.url}}">
+            {{#if @blog.icon}}
+                <img src="{{img_url @blog.icon size="xxs"}}" alt="{{@blog.title}} icon" />
+            {{/if}}
+            <span>{{@blog.title}}</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">{{title}}</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">分享 {{> "icons/point"}}</div>
+        <a class="floating-header-share-fb" href="https://api.addthis.com/oexchange/0.8/forward/wechat/offer?url={{url absolute="true"}}&title={{encode title}}"
+        onclick="window.open(this.href, 'share-wechat','width=580,height=296');return false;">
+            {{> "icons/wechat"}}
+        </a>
+        <a class="floating-header-share-qq" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{url absolute="true"}}&title={{encode title}}"
+        onclick="window.open(this.href, 'share-qqzone', 'width=550,height=235');return false;">
+        {{> "icons/qqzone"}}
+        </a>
+        <a class="floating-header-share-tw" href="http://v.t.sina.com.cn/share/share.php?url={{url absolute="true"}}&title={{encode title}}"
+            onclick="window.open(this.href, 'share-webo', 'width=550,height=235');return false;">
+            {{> "icons/webo"}}
+        </a>
+    </div>
+    <progress id="reading-progress" class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
