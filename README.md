@@ -5,7 +5,7 @@
   </a>
 </p>
 <h3 align="center">在Ghost-2.10的基础上进行了汉化</h3>
-<p align="center">如何使用？<br>
+<h4 align="center">如何使用？</h4>
     将原版的Ghost-2.10下的文件替换掉即可</p>
-<p align="center">.[我的Ghost博客].(https://33code.online/) <br>
+<h4 align="center">[我的Ghost博客](https://33code.online/)</h4>
 <hr />
